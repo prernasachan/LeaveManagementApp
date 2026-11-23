@@ -3,6 +3,18 @@
 **A Dataverse-powered employee leave management solution built with Microsoft Power Apps Model-Driven Apps.**
 
 Moon Leave Management System provides a centralized application for employees to submit leave requests and for managers to review and update request decisions. Built on Microsoft Dataverse, the solution uses structured leave records, configurable views, business rules and calculated columns to streamline leave request management.
+## App Gallery
+Explore the main experiences available in Moon Leave Management App.
+
+
+<img width="452" height="219" alt="image" src="https://github.com/user-attachments/assets/ccabbd14-3232-4965-bd61-24134b700978" />
+<img width="452" height="200" alt="image" src="https://github.com/user-attachments/assets/04c53cee-b453-44ec-85d2-51da2cf796ef" />
+<img width="452" height="216" alt="image" src="https://github.com/user-attachments/assets/ee8108c3-234a-43ed-8aa9-4299fba1fee9" />
+<img width="452" height="251" alt="image" src="https://github.com/user-attachments/assets/6a1c485d-d15c-4110-9840-820c3bdea8a7" />
+<img width="452" height="203" alt="image" src="https://github.com/user-attachments/assets/4cc77a62-d96b-4aac-9881-9395265ddf80" />
+<img width="452" height="125" alt="image" src="https://github.com/user-attachments/assets/001a6675-63a1-42c9-938d-96180d36265b" />
+<img width="452" height="217" alt="image" src="https://github.com/user-attachments/assets/61ccb703-2013-4018-8189-d8be83db56bc" />
+<img width="452" height="217" alt="image" src="https://github.com/user-attachments/assets/ca27fc7e-2121-4fff-9f6a-745528458977" />
 
 ---
 
@@ -266,31 +278,6 @@ flowchart TD
     J -->|"Reject"| L["Status = Rejected"]
     K --> M["Business Rule Locks Form Fields"]
     L --> M
-```
-
----
-
-## Repository Structure
-
-```text
-Moon-Leave-Management-System/
-│
-├── README.md
-│
-├── Screenshots/
-│   ├── leave-management-app.png
-│   ├── all-leave-requests.png
-│   ├── pending-requests.png
-│   ├── my-leave-requests.png
-│   ├── leave-request-form.png
-│   └── approved-request.png
-│
-├── Solution/
-│   └── Moon-Leave-Management-System.zip
-│
-└── Documentation/
-    ├── data-dictionary.md
-    └── application-architecture.md
 ```
 
 ---
